@@ -8,6 +8,6 @@ public class Frontend {
     }
 
     public void Feature1() {
-
+        System.out.println("Feature1");
     }
 }
