@@ -30,4 +30,12 @@ public class GreetService implements Serializable {
             return "Hello " + name;
         }
     }
+
+    public String feature1point1point1(String name) {
+        if (name == null || name.isEmpty()) {
+            return "Hello anonymous user";
+        } else {
+            return "Hello " + name;
+        }
+    }
 }
