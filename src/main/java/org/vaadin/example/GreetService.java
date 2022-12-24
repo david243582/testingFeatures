@@ -15,4 +15,12 @@ public class GreetService implements Serializable {
         }
     }
 
+    public String feature1(String name) {
+        if (name == null || name.isEmpty()) {
+            return "Hello anonymous user";
+        } else {
+            return "Hello " + name;
+        }
+    }
+
 }
