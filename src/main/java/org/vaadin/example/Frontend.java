@@ -6,4 +6,8 @@ public class Frontend {
     public Frontend(String frontend) {
         this.frontend = frontend;
     }
+
+    public void Feature1() {
+
+    }
 }
